@@ -1,7 +1,7 @@
 const prompt = require("prompt-sync")({ signit: true });
 
 function rotate(myArray) {
-    let newArray = [];
+    let newArray = [myArray.length];
     for (i = myArray.length - 1; i >= 0; i--) {
         newArray.push(myArray[i]);
     }
